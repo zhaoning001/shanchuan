@@ -1,9 +1,10 @@
 $(function(){
   var swiper = new Swiper('.swiper-container', {
-    autoplay: {
-      dalay:3000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   dalay:3000,
+    //   disableOnInteraction: false,
+    // },
+    autoplay: 2000,
     loop: true,
     // navigation: {
     //   nextEl: '.swiper-button-next',
@@ -13,6 +14,7 @@ $(function(){
       el: '.swiper-pagination',
       clickable: true,
     },
+    // pagination: '.swiper-pagination',
   });  
  
   

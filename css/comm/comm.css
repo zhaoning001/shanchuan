@@ -361,14 +361,16 @@ li:focus {
 .head-active em,.head-active span{color: #fff;}
 .container-outtitle ul li:hover{background: linear-gradient(0deg,#ff000d 0%, #c7000a 100%);}
 
-
-
-
-
-
-
-
-
+.footer{width: 100%;background: #F8F8F8;margin-top: 129px;border-top: 1px solid #fff;padding-bottom: 39px;}
+.footer-xq{margin-top: 42px;}
+.footer-img{margin-top: 69px;}
+.footer-list{float: left;}
+.footer-list span{font-size: 14px;color: #6E6E6E;line-height: 22px;display: block;margin-top: 16px;}
+.footer-line{float: left;width: 1px;height: 120px;background: #C8C8C8;margin: 0 185px;}
+.footer-code{float: left;margin-left: 162px;}
+.footer-code p{text-align: center;font-size: 14px;margin-top: 17px;color: #6E6E6E;}
+.footer-record{width: 100%;height: 60px;background:#E8E8E8;text-align: center;font-size: 14px;color: #6E6E6E;line-height: 60px;}
+.footer-record span{margin-right: 10px;}
 
 
 
