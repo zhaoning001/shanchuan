@@ -1,10 +1,10 @@
-$(function(){
+$(function () {
   var swiper = new Swiper('.swiper-container', {
-    // autoplay: {
-    //   dalay:3000,
-    //   disableOnInteraction: false,
-    // },
-    autoplay: 2000,
+    autoplay: {
+      dalay: 1000,
+      disableOnInteraction: false,
+    },
+    // autoplay: 2000,
     loop: true,
     // navigation: {
     //   nextEl: '.swiper-button-next',
@@ -15,40 +15,38 @@ $(function(){
       clickable: true,
     },
     // pagination: '.swiper-pagination',
-  });  
- 
-  
+  });
+
+
   var imageObj = [
     {
-        "src": "/images/seat.jpg",
-        "url": "",
+      "src": "/images/seat3.jpg",
+      "url": "",
     },
+    {
+      "src": "/images/seat2.jpg",
+      "url": "",
+    },
+    {
+      "src": "/images/seat1.jpg",
+      "url": "",
+    },
+
     {
       "src": "/images/seat.jpg",
       "url": "",
-  },
-
-  {
-    "src": "/images/seat.jpg",
-    "url": "",
-},
-
-{
-  "src": "/images/seat.jpg",
-  "url": "",
-},
-
-{
-  "src": "/images/seat.jpg",
-  "url": "",
-},
+    },
+    {
+      "src": "/images/seat4.jpg",
+      "url": "",
+    },
 
 
-];
-$('.accordion').accordion({
+  ];
+  $('.accordion').accordion({
     "imageObj": imageObj,
     animateWidth: 742
-});
+  });
 
 
 
