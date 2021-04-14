@@ -223,7 +223,22 @@ li:focus {
 	-o-box-orient: vertical;
 	word-break: break-all;
 }
-
+.ellipsis4 {
+	overflow: hidden;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-box;
+	display: -o-box;
+	-webkit-line-clamp: 4;
+	-moz-line-clamp:4;
+	-ms-line-clamp:4;
+	-o-line-clamp:4;
+	-webkit-box-orient: vertical;
+	-moz-box-orient: vertical;
+	-ms-box-orient: vertical;
+	-o-box-orient: vertical;
+	word-break: break-all;
+}
 .ellipsis5 {
 	overflow: hidden;
 	display: -webkit-box;
@@ -373,6 +388,10 @@ li:focus {
 .footer-record span{margin-right: 10px;}
 
 
-
-
+.index-title{width: 976px;margin: 0 auto;}
+.index-title h1{font-size: 32px;text-align: center;width: 100%;margin: 65px 0 14px;font-weight: normal;}
+.index-title p{width: 100%;border-top: 1px solid #DDDDDD;}
+.index-title em{display: block;width: 32px;height: 7px;background: #C7000A;margin: -4px auto 0;}
+.index-title span{text-align: center;width: 100%;display: block;font-size: 16px;margin-top: 12px;}
+.titlebanner{width: 100%;}
 
