@@ -16,6 +16,16 @@ $(function(){
    var headcole=$(head).clone();
    if(window.location.href.indexOf("groupprofile")>-1){
        headcole.find("ul li").eq(1).addClass("head-active").siblings().removeClass("head-active")
+   }else if(window.location.href.indexOf("corporateculture")>-1){
+    headcole.find("ul li").eq(2).addClass("head-active").siblings().removeClass("head-active") 
+   }else if(window.location.href.indexOf("news")>-1){
+    headcole.find("ul li").eq(3).addClass("head-active").siblings().removeClass("head-active")
+   }else if(window.location.href.indexOf("keyprojects")>-1){
+    headcole.find("ul li").eq(4).addClass("head-active").siblings().removeClass("head-active")
+   }else if(window.location.href.indexOf("recruitment")>-1){
+    headcole.find("ul li").eq(5).addClass("head-active").siblings().removeClass("head-active")
+   }else if(window.location.href.indexOf("contactuS")>-1){
+    headcole.find("ul li").eq(6).addClass("head-active").siblings().removeClass("head-active")
    }
    $(".sifa-head").empty().append(headcole);
    
